@@ -321,9 +321,13 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-    nio4r (2.5.8)
+    nio4r (2.5.9)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     os (1.1.4)
     parallel (1.22.1)
@@ -339,7 +343,7 @@ GEM
     psych (5.1.0)
       stringio
     public_suffix (5.0.1)
-    puma (6.0.2)
+    puma (6.4.0)
       nio4r (~> 2.0)
     queue_classic (4.0.0)
       pg (>= 1.1, < 2.0)
@@ -470,6 +474,8 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.5.4)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.5.4-x86_64-darwin)
+    sqlite3 (1.5.4-x86_64-linux)
     stackprof (0.2.23)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
